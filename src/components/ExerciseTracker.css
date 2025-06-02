@@ -1,0 +1,100 @@
+/* Container */
+.exercise-tracker-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #c879ff; /* Pinkish background */
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  color: #000; /* Set text color to black */
+}
+
+/* Video Thumbnails Grid */
+.thumbnails-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 15px;
+  margin-top: 10px;
+}
+
+/* Thumbnail Image */
+.thumbnail {
+  width: 100%;
+  border-radius: 15px;
+  transition: transform 0.3s ease;
+}
+
+/* Hover Effect */
+.thumbnail:hover {
+  transform: scale(1.1);
+}
+
+/* Timer Section */
+.timer-section {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Timer Display */
+.timer-display {
+  font-size: 48px;
+  font-weight: bold;
+  color: #000; /* Black text for visibility */
+  margin-bottom: 20px;
+}
+
+/* Timer Buttons */
+.timer-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.timer-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Timer Button Colors */
+.timer-button.start {
+  background-color: #ca7df9; /* Lighter purple */
+  color: white;
+}
+
+.timer-button.stop {
+  background-color: #f44336; /* Red for stop */
+  color: white;
+}
+
+.timer-button.reset {
+  background-color: black; /* Blue for reset */
+  color: white;
+}
+
+/* Exercise Video Links */
+.exercise-video-links {
+  margin-top: 20px;
+}
+
+.exercise-video-links ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.exercise-video-links li {
+  margin-bottom: 10px;
+}
+
+.exercise-video-links a {
+  font-size: 16px;
+  color: #000; /* Black text for links */
+  text-decoration: none;
+}
+
+.exercise-video-links a:hover {
+  text-decoration: underline;
+}
+  

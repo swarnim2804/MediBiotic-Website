@@ -1,0 +1,165 @@
+/* =============================== */
+/*        Main Container            */
+/* =============================== */
+.community-forum {
+  padding: 20px;
+  max-width: 100%; /* Allow the container to take full width on smaller screens */
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  background-color: #f7a399; /* Coral background */
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+/* Title */
+.community-forum h1 {
+  text-align: center;
+  color: black;
+  margin-bottom: 20px;
+  font-size: 1.8rem; /* Adjusted size for responsiveness */
+}
+
+/* =============================== */
+/*        Create Post Section       */
+/* =============================== */
+.create-post {
+  background-color: #ffe3e0; /* Soft pink background */
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  max-width: 100%; /* Ensure it fits the screen */
+  box-sizing: border-box;
+}
+
+/* Input Fields */
+.create-post input,
+.create-post textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 2px solid #fbc3bc; /* Light pink border */
+  border-radius: 10px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+/* Button */
+.create-post button {
+  padding: 12px 20px;
+  background-color: #ef6351; /* Light pink button */
+  color: black;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-size: 1.1rem;
+}
+
+.create-post button:hover {
+  background-color: #dec0f1; /* Soft lavender on hover */
+  color: black;
+}
+
+/* =============================== */
+/*        Posts Section             */
+/* =============================== */
+.posts {
+  margin-top: 20px;
+}
+
+/* Individual Post */
+.post {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 15px;
+  text-align: left;
+  box-sizing: border-box;
+}
+
+/* Post Title */
+.post h2 {
+  color: #4e148c;
+  margin-bottom: 10px;
+  font-size: 1.5rem; /* Adjusted size for responsiveness */
+}
+
+/* Reactions */
+.reactions {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.reactions button {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 8px;
+  background-color: #f0f0ff; /* Light blue background for reactions */
+  cursor: pointer;
+}
+
+.reactions button:hover {
+  background-color: #e0e0ff; /* Light blue hover */
+}
+
+/* Delete Button */
+.delete-btn {
+  background-color: #f7a399; /* Red for delete button */
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.delete-btn:hover {
+  background-color: #f7a399; /* Darker red on hover */
+}
+
+/* Comments */
+.comment {
+  background-color: #ffe3e0; /* Soft pink background */
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+/* =============================== */
+/*        Responsive Design         */
+/* =============================== */
+
+/* Mobile Devices */
+@media (max-width: 768px) {
+  .community-forum h1 {
+    font-size: 1.5rem; /* Adjust font size on smaller screens */
+  }
+
+  .create-post {
+    padding: 20px; /* Reduce padding on small screens */
+  }
+
+  .create-post button {
+    width: 100%; /* Make button full-width on small screens */
+  }
+
+  .post {
+    padding: 15px; /* Reduce padding for posts */
+  }
+
+  .post h2 {
+    font-size: 1.3rem; /* Adjust title size for mobile */
+  }
+
+  .delete-btn {
+    width: 100%; /* Make delete button full-width */
+  }
+
+  .reactions button {
+    font-size: 0.9rem; /* Reduce font size for reactions */
+  }
+}

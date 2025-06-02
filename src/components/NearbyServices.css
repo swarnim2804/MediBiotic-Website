@@ -1,0 +1,109 @@
+/* Container */
+.nearby-services-container {
+  padding: 20px;
+  background-color: #60308c; /* Soft Light Pink */
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  max-width: 1200px;
+  margin: 20px auto;
+}
+
+/* Heading */
+.nearby-services-container h2 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 20px;
+  color: white; /* Soft Blue */
+}
+
+/* Input and Select Fields */
+.mb-4 {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.mb-4 input,
+.mb-4 select {
+  padding: 10px;
+  font-size: 1rem;
+  border: 2px solid white;
+  border-radius: 8px;
+  transition: border-color 0.3s;
+}
+
+.mb-4 input:focus,
+.mb-4 select:focus {
+  border-color: white; /* Soft Blue on focus */
+  outline: none;
+}
+
+/* Loading Text */
+.loading-text {
+  text-align: center;
+  font-size: 1.2rem;
+  color: black; /* Soft Blue */
+  margin-top: 20px;
+}
+
+/* Map Container */
+.leaflet-container {
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* List of Places */
+.mt-4 {
+  margin-top: 20px;
+}
+
+.mt-4 li {
+  list-style: none;
+  background-color: #f7a399; /* Soft Green */
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.mt-4 li:hover {
+  transform: translateY(-5px);
+}
+
+/* Place Name */
+.mt-4 h3 {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+/* Coordinates */
+.mt-4 p {
+  color: #555;
+  font-size: 0.9rem;
+}
+
+/* Error Message */
+.text-red-500 {
+  color: #e63946; /* Red */
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+/* Media Query for Mobile */
+@media (max-width: 768px) {
+  .mb-4 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nearby-services-container {
+    padding: 15px;
+  }
+}

@@ -1,0 +1,237 @@
+/* =============================== */
+/*          Landing Section        */
+/* =============================== */
+.landing-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('pinklandingpage.png') center center / cover no-repeat;
+    background-size: cover;               /* Ensures full coverage without cropping */
+    background-attachment: fixed;         /* Keeps image fixed on scroll */
+    background-position: center;          /* Centers the image */
+    padding: 1rem;
+    box-sizing: border-box;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+/* Gradient Title */
+.title {
+    font-size: 5rem;
+    font-weight: bold;
+    background-image: linear-gradient(45deg, #4e148c, #0d0c0d);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-shadow: 2px 2px 8px rgba(80, 19, 35, 0.3);
+}
+
+/* =============================== */
+/*      Daily Health Tips Section   */
+/* =============================== */
+/* =============================== */
+/*      Daily Health Tips Section   */
+/* =============================== */
+.daily-health-tips {
+    position: absolute;
+    bottom: 32%;
+    left: 3%;
+    background-color: #6B557B;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 8px 15px rgba(128, 147, 241, 0.2);
+    max-width: 1000px;
+    z-index: 2;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Small Heading for Daily Health Tips */
+.health-tips-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: white;
+    text-align: left;
+}
+
+/* Daily Health Tips Heading */
+.tips-heading {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.2rem;
+    text-align: left;
+}
+
+/* Shuffling Health Tip */
+.health-tip {
+    font-size: 1rem;
+    color: white;
+    font-style: italic;
+    line-height: 1.2;
+}
+
+/* =============================== */
+/*       Explore More Button        */
+/* =============================== */
+.explore-button {
+    margin-top: 6rem;
+    padding: 15px;
+    font-size: 1.2rem;
+    background-color: #6B557B;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 120px;
+    height: 80px;
+    display: flex;
+    justify-content: center; /* Centered text */
+    align-items: center;    /* Centered text */
+    position: absolute;
+    left: 3%;               /* Keeps it aligned with Daily Tips */
+    box-shadow: 0 8px 15px rgba(156, 93, 166, 0.2);
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover Effect */
+.explore-button:hover {
+    background-color: #9b72cf;
+    color: black;
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+}
+
+
+
+/* =============================== */
+/*         Features Section         */
+/* =============================== */
+.features-section {
+    background: url('medibioticfeaturespage.png') center center / cover no-repeat;
+    background-position: center;
+    padding: 10rem 10rem;
+    text-align: center;
+    border-top: 5px solid #fbc3bc;
+    border-radius: 5px 5px 0 0;
+    box-shadow: 0 -4px 15px rgba(0, 0, 0, 0.1);
+    margin-top: 0.2rem;
+    min-height: 100vh;
+    box-sizing: border-box;
+    overflow-x: hidden;  /* Prevents horizontal scrolling */
+    max-width: 100vw;    /* Ensures it never overflows the viewport width */
+}
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 768px) {
+    .features-section {
+        background-size: contain; /* Ensures full image visibility on small screens */
+        background-attachment: scroll;
+        min-height: 60vh;
+        overflow-x: hidden; /* Keeps it hidden on smaller devices as well */
+    }
+}
+
+
+.features-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 4rem;
+}
+
+/* Circular Layout for Feature Cards */
+.circular-grid {
+    position: relative;
+    width: 70%;
+    height: 400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* Feature Cards */
+.feature-card {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: #df7373;
+    clip-path: polygon(50% 0%, 100% 30%, 100% 70%, 50% 100%, 0% 70%, 0% 30%);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: 5px solid #613f75; /* White border added */
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;   
+    right:0.1%;
+    top: 45%;
+}
+
+/* Positioning Each Card in a Circle */
+.feature-card:nth-child(1) { transform: rotate(0deg) translate(180px) rotate(-0deg); }
+.feature-card:nth-child(2) { transform: rotate(51deg) translate(180px) rotate(-51deg); }
+.feature-card:nth-child(3) { transform: rotate(103deg) translate(180px) rotate(-103deg); }
+.feature-card:nth-child(4) { transform: rotate(154deg) translate(180px) rotate(-154deg); }
+.feature-card:nth-child(5) { transform: rotate(206deg) translate(180px) rotate(-206deg); }
+.feature-card:nth-child(6) { transform: rotate(257deg) translate(180px) rotate(-257deg); }
+.feature-card:nth-child(7) { transform: rotate(309deg) translate(180px) rotate(-309deg); }
+
+.feature-card.active {
+    transform: scale(1.5) !important;
+    z-index: 2;
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.3);
+    background-color: #9b72cf;
+  }
+  
+  /* Hover Effect for Non-Active Cards */
+  .feature-card:hover:not(.active) {
+    transform: scale(1.2);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  }
+/* Hover Effect */
+.feature-card:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    z-index: 3;
+}
+
+/* =============================== */
+/*         Responsive Design        */
+/* =============================== */
+@media (max-width: 768px) {
+    .daily-health-tips {
+        bottom: 5%;
+        left: 2%;
+        max-width: 90%;
+    }
+
+    .landing-container {
+        padding: 1rem;
+    }
+
+    .title {
+        font-size: 3rem;
+    }
+
+    .feature-card {
+        width: 100px;
+        height: 100px;
+    }
+
+    .circular-grid {
+        width: 100%;
+        height: auto;
+        flex-wrap: wrap;
+    }
+}

@@ -1,0 +1,181 @@
+[
+    {
+        "timestamp": "2025-03-24 01:26:20",
+        "symptom": "I have fever",
+        "response": "You may have a fever. Stay hydrated and rest well."
+    },
+    {
+        "timestamp": "2025-03-24 01:26:47",
+        "symptom": "i am coughing",
+        "response": "You may have a cough. Consider warm fluids and rest."
+    },
+    {
+        "timestamp": "2025-03-24 01:31:22",
+        "symptom": "i feel dizzy",
+        "response": "Symptom not recognized. Please consult a doctor."
+    },
+    {
+        "timestamp": "2025-03-24 01:31:29",
+        "symptom": "dizzy",
+        "response": "Symptom not recognized. Please consult a doctor."
+    },
+    {
+        "timestamp": "2025-03-24 01:32:17",
+        "symptom": "fever",
+        "response": "You may have Fever.  Stay hydrated and monitor your temperature."
+    },
+    {
+        "timestamp": "2025-03-24 01:32:29",
+        "symptom": "stomach ache",
+        "response": "Symptom not recognized. Please consult a doctor."
+    },
+    {
+        "timestamp": "2025-03-24 01:32:39",
+        "symptom": "chest pain",
+        "response": "You may have Chest Pain.  Seek immediate medical attention."
+    },
+    {
+        "timestamp": "2025-03-24 01:35:00",
+        "symptom": "fever",
+        "response": "You may have Flu.  body ache",
+        "follow_up": " cough"
+    },
+    {
+        "timestamp": "2025-03-24 01:35:17",
+        "symptom": "fever",
+        "response": "You may have Flu.  body ache",
+        "follow_up": " cough"
+    },
+    {
+        "timestamp": "2025-03-24 01:35:28",
+        "symptom": "chest pain",
+        "response": "You may have Chest Pain.  tightness",
+        "follow_up": " heaviness"
+    },
+    {
+        "timestamp": "2025-03-24 02:58:20",
+        "symptom": "chest pain",
+        "response": "You may have Chest Pain.  tightness",
+        "follow_up": " heaviness"
+    },
+    {
+        "timestamp": "2025-03-24 03:42:07",
+        "symptom": "fever",
+        "response": "You may have Flu.  body ache",
+        "follow_up": " cough"
+    },
+    {
+        "timestamp": "2025-03-24 04:56:02",
+        "symptom": "fever",
+        "response": "You may have Flu.  body ache",
+        "follow_up": " cough"
+    },
+    {
+        "timestamp": "2025-03-24 06:01:18",
+        "symptom": "",
+        "response": "Symptom not recognized. Please consult a doctor.",
+        "follow_up": "Can you describe your symptoms in more detail?"
+    },
+    {
+        "timestamp": "2025-03-24 06:01:33",
+        "symptom": "i am having chest pain",
+        "response": "You may have Chest Pain.  tightness",
+        "follow_up": " heaviness"
+    },
+    {
+        "timestamp": "2025-03-24 06:04:11",
+        "symptom": "",
+        "response": "Symptom not recognized. Please consult a doctor.",
+        "follow_up": "Can you describe your symptoms in more detail?"
+    },
+    {
+        "timestamp": "2025-03-24 06:09:32",
+        "symptom": "",
+        "response": "Symptom not recognized. Please consult a doctor.",
+        "follow_up": "Can you describe your symptoms in more detail?"
+    },
+    {
+        "timestamp": "2025-03-24 06:09:38",
+        "symptom": "dizziness",
+        "response": "You may have Dizziness.  lightheadedness",
+        "follow_up": " fatigue"
+    },
+    {
+        "timestamp": "2025-03-24 06:09:45",
+        "symptom": "dizziness",
+        "response": "You may have Dizziness.  lightheadedness",
+        "follow_up": " fatigue"
+    },
+    {
+        "timestamp": "2025-03-24 06:09:46",
+        "symptom": "dizziness",
+        "response": "You may have Dizziness.  lightheadedness",
+        "follow_up": " fatigue"
+    },
+    {
+        "timestamp": "2025-03-24 06:10:41",
+        "symptom": "dizziness",
+        "response": "You may have Dizziness.  lightheadedness",
+        "follow_up": " fatigue"
+    },
+    {
+        "timestamp": "2025-03-24 06:13:37",
+        "symptom": "dizziness",
+        "response": "You may have Dizziness.  lightheadedness",
+        "follow_up": " fatigue"
+    },
+    {
+        "timestamp": "2025-03-24 06:13:44",
+        "symptom": "chest pain",
+        "response": "You may have Chest Pain.  tightness",
+        "follow_up": " heaviness"
+    },
+    {
+        "timestamp": "2025-03-24 06:18:41",
+        "symptom": "i have chest pain",
+        "response": "You may have Chest Pain.  tightness",
+        "follow_up": " heaviness"
+    },
+    {
+        "timestamp": "2025-03-24 13:08:22",
+        "symptom": "i have fever",
+        "response": "You may have Flu.  body ache",
+        "follow_up": " cough"
+    },
+    {
+        "timestamp": "2025-03-24 13:21:02",
+        "symptom": "i have cold",
+        "response": "Symptom not recognized. Please consult a doctor.",
+        "follow_up": "Can you describe your symptoms in more detail?"
+    },
+    {
+        "timestamp": "2025-03-24 13:21:10",
+        "symptom": "i am coughing",
+        "response": "Symptom not recognized. Please consult a doctor.",
+        "follow_up": "Can you describe your symptoms in more detail?"
+    },
+    {
+        "timestamp": "2025-03-24 13:21:16",
+        "symptom": "cough",
+        "response": "Symptom not recognized. Please consult a doctor.",
+        "follow_up": "Can you describe your symptoms in more detail?"
+    },
+    {
+        "timestamp": "2025-03-24 13:21:18",
+        "symptom": "cough",
+        "response": "Symptom not recognized. Please consult a doctor.",
+        "follow_up": "Can you describe your symptoms in more detail?"
+    },
+    {
+        "timestamp": "2025-03-24 13:21:24",
+        "symptom": "back pain",
+        "response": "Symptom not recognized. Please consult a doctor.",
+        "follow_up": "Can you describe your symptoms in more detail?"
+    },
+    {
+        "timestamp": "2025-03-24 13:21:30",
+        "symptom": "chest pain",
+        "response": "You may have Chest Pain.  tightness",
+        "follow_up": " heaviness"
+    }
+]

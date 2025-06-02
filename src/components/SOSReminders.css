@@ -1,0 +1,80 @@
+/* Container */
+.sos-reminders-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    height: 100vh; /* Set container to full height */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Distribute space if needed */
+    background-color: #f7a399; /* Coral background */
+}
+
+/* Emergency SOS Section */
+.sos-section, .reminder-section {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 2px solid #fbc3bc; /* Adjusted to match the landing page colors */
+    border-radius: 8px;
+    background-color: #ffe3e0; /* Soft pink background */
+    flex-grow: 1; /* Allow the sections to grow and fill space */
+}
+
+/* Buttons */
+.sos-button, .reminder-form button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #fbc3bc; /* Light pink button */
+    color: black; /* Dark text for better readability */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect for the SOS button */
+.sos-button:hover {
+    background-color: #dec0f1; /* Soft lavender on hover */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Deeper shadow */
+}
+
+/* Reminder Form Inputs */
+.reminder-form input {
+    margin-right: 10px;
+    padding: 8px;
+    border: 1px solid #fbc3bc; /* Matching border color */
+    border-radius: 5px;
+    background-color: #f7a399; /* Coral background for input */
+}
+
+/* Reminder List */
+.reminder-list li {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Fullscreen Alert */
+.alert-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(227, 67, 115, 0.9); /* Bright red overlay for alert */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    z-index: 9999;
+    text-align: center;
+    animation: flash 1s infinite alternate;
+}
+
+/* Flashing Animation */
+@keyframes flash {
+    from { opacity: 1; }
+    to { opacity: 0.5; }
+}

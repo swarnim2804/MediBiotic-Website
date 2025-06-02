@@ -1,0 +1,185 @@
+/* =============================== */
+/*         Main Container           */
+/* =============================== */
+.wellbeing-monitor {
+    padding: 2rem;
+    background-color: #60308c; /* Soft Light Pink */
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    margin: 2rem auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+/* =============================== */
+/*         Individual Section       */
+/* =============================== */
+.wellbeing-section {
+    background-color: #ffffff;
+    padding: 1.5rem;
+    margin: 1rem 0;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+/* Hover Effect */
+.wellbeing-section:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Section Headings */
+.wellbeing-section h3 {
+    margin-bottom: 0.5rem;
+    color: black; /* Soft Blue */
+    font-size: 1.7rem;
+}
+
+/* =============================== */
+/*         Mood Buttons             */
+/* =============================== */
+.mood-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 0.5rem;
+}
+
+.mood-buttons button {
+    padding: 10px 20px;
+    background-color: black; /* Soft Blue */
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 1.5rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.mood-buttons button:hover {
+    background-color: #ca7df9; /* Light Purple */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* =============================== */
+/*         Range Slider             */
+/* =============================== */
+input[type="range"] {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 80%;
+    height: 8px;
+    background: #ddd;
+    border-radius: 5px;
+    outline: none;
+    opacity: 0.8;
+    transition: opacity 0.2s;
+    margin-top: 1rem;
+}
+
+/* Range Slider Thumb */
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background-color: #ef6351; /* Soft Blue */
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="range"]::-webkit-slider-thumb:hover {
+    background-color: #ca7df9; /* Light Purple */
+}
+
+/* Range Slider Hover */
+input[type="range"]:hover {
+    opacity: 1;
+}
+
+/* =============================== */
+/*         Input Fields             */
+/* =============================== */
+input[type="number"],
+input[type="date"] {
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    margin: 0.5rem;
+    font-size: 1.1rem;
+    width: 80%;
+    max-width: 300px;
+    transition: border-color 0.2s ease;
+}
+
+/* Focus Effect */
+input[type="number"]:focus,
+input[type="date"]:focus {
+    border-color: black; /* Soft Blue */
+}
+
+/* =============================== */
+/*         Button Styles            */
+/* =============================== */
+button {
+    padding: 10px 20px;
+    background-color: #805ebf; /* Soft Blue */
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    margin-top: 0.5rem;
+}
+
+/* Hover Effect for Buttons */
+button:hover {
+    background-color: #ca7df9; /* Light Purple */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Disabled Button */
+button:disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+}
+
+/* =============================== */
+/*         Breathing Section        */
+/* =============================== */
+.wellbeing-section p {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    color: #555;
+}
+
+/* Strong Text Highlight */
+.wellbeing-section strong {
+    color: black; /* Soft Blue */
+    font-weight: bold;
+}
+
+/* =============================== */
+/*         Responsive Design        */
+/* =============================== */
+@media (max-width: 768px) {
+    .wellbeing-monitor {
+        padding: 1rem;
+    }
+
+    .mood-buttons {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    input[type="number"],
+    input[type="date"] {
+        width: 100%;
+    }
+}
