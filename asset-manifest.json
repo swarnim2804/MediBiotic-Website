@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/MediBiotic-Website/static/css/main.e401db7b.css",
+    "main.js": "/MediBiotic-Website/static/js/main.a4fd2bbe.js",
+    "static/media/pinklandingpage.png": "/MediBiotic-Website/static/media/pinklandingpage.1146cd9b8d367af585be.png",
+    "static/media/medibioticfeaturespage.png": "/MediBiotic-Website/static/media/medibioticfeaturespage.bfe6bbc3cdbf11937a1b.png",
+    "index.html": "/MediBiotic-Website/index.html",
+    "main.e401db7b.css.map": "/MediBiotic-Website/static/css/main.e401db7b.css.map",
+    "main.a4fd2bbe.js.map": "/MediBiotic-Website/static/js/main.a4fd2bbe.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e401db7b.css",
+    "static/js/main.a4fd2bbe.js"
+  ]
+}
